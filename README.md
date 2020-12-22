@@ -1,114 +1,240 @@
-![Next.js blogging template for Netlify](https://repository-images.githubusercontent.com/284910441/d8efc300-e2ae-11ea-9596-b01e3844e39d)
+# Notus NextJS <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-nextjs%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20NextJS%20UI%20Kit%20and%20Admin.%20Let%20Notus%20NextJS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level." target="_blank">![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)</a>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c6f44d34-0570-4ca0-9d3d-cabdaa2b3afb/deploy-status)](https://app.netlify.com/sites/nextjs-netlify-blog-template/deploys)
-[![MADE BY Next.js](https://img.shields.io/badge/MADE%20BY%20Next.js-000000.svg?style=flat&logo=Next.js&labelColor=000)](https://nextjs.org/)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/creativetimofficial/notus-nextjs/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/notus-nextjs.svg)</a> <a href="https://github.com/creativetimofficial/notus-nextjs/issues?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/notus-nextjs.svg)</a> <a href="https://gitter.im/creative-tim-general/Lobby" target="_blank">![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)</a> <a href="https://discord.gg/E4aHAQy" target="_blank">![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)</a>
 
-Next.js blogging template for Netlify is a boilerplate for building blogs with only Netlify stacks.
+![Notus NextJS](https://github.com/creativetimofficial/public-assets/blob/master/notus-nextjs/notus-nextjs.jpg?raw=true)
 
-There are some boilerplate or tutorials for the combination of Next.js and Netlify on GitHub. These resources have documentation and good tutorial to get started Next.js and Netlify quickly, but they are too simple to build blogs with standard features like tagging.
+### A beautiful UI Kit and Admin for Tailwind CSS and NextJS.
 
-Next.js blogging template for Netlify has already implemented these standard features for building blogs with only using Next.js and Netlify stacks.
+Start your development with a Free Tailwind CSS and NextJS UI Kit and Admin. Let Notus NextJS amaze you with its cool features and build tools and get your project to a whole new level.
 
-## Demo
+Notus NextJS is Free and Open Source. It features multiple HTML and NextJS elements and it comes with dynamic components for NextJS.
 
-Deploy on your environment by clicking here:
+It is based on [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation?ref=nnjs-github-readme) by Creative Tim, and it is build with both presentation pages, and pages for an admin dashboard.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/wutali/nextjs-netlify-blog-template&stack=cms)
+Speed up your web development with a beautiful product made by <a href="https://creative-tim.com/" target="_blank">Creative Tim </a>.
+If you like bright and fresh colors, you will love this Free Tailwind CSS Template! It features a huge number of components that can help you create amazing websites.
 
-Or access the following demo site:
+### Get Started
 
-[Next.js blog template for Netlify](https://nextjs-netlify-blog-template.netlify.app/)
+- Install NodeJS **LTS** version from <a href="https://nodejs.org/en/?ref=creativetim">NodeJs Official Page</a>
+- Download the product on this page
+- Unzip the downloaded file to a folder in your computer
+- Open Terminal
+- Go to your file project (where you’ve unzipped the product)
+- (If you are on a linux based terminal) Simply run `npm run install:clean`
+- (If not) Run in terminal `npm install`
+- (If not) Run in terminal `npm run build:tailwind` (each time you add a new class, a class that does not exist in `src/assets/styles/tailwind.css`, you will need to run this command)
+- (If not) Run in terminal `npm run dev`
+- Navigate to https://localhost:3000
+- Check more about [Tailwind CSS](https://tailwindcss.com/?ref=creativetim)
 
-## Features
+### Pages
 
-- **Tagging**: organizes content by tags
-- **Author**: displays author names who write a post
-- **Pagination**: limits the number of posts per page
-- **CMS**: built with CMS to allow editors modifying content with the quickest way
-- **SEO optimized**: built-in metadata like JSON-LD
-- **Shortcode**: extends content writing with React component like WordPress shortcodes
+If you want to get inspiration or just show something directly to your clients,
+you can jump start your development with our pre-built example pages. You will be able
+to quickly set up the basic structure for your web project.
 
-## Dependencies
+Here are all the page from the project:
+- [Presentation](https://demos.creative-tim.com/notus-nextjs/?ref=nnjs-github-readme)
+- Admin Samples
+  - [Dashboard](https://demos.creative-tim.com/notus-nextjs/admin/dashboard?ref=nnjs-github-readme)
+  - [Settings](https://demos.creative-tim.com/notus-nextjs/admin/settings?ref=nnjs-github-readme)
+  - [Tables](https://demos.creative-tim.com/notus-nextjs/admin/tables?ref=nnjs-github-readme)
+  - [Maps](https://demos.creative-tim.com/notus-nextjs/admin/maps?ref=nnjs-github-readme)
+- Authentication Samples
+  - [Login](https://demos.creative-tim.com/notus-nextjs/auth/login?ref=nnjs-github-readme)
+  - [Register](https://demos.creative-tim.com/notus-nextjs/auth/register?ref=nnjs-github-readme)
+- Presentation Samples
+  - [Landing](https://demos.creative-tim.com/notus-nextjs/landing?ref=nnjs-github-readme)
+  - [Profile](https://demos.creative-tim.com/notus-nextjs/profile?ref=nnjs-github-readme)
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Next.js](https://nextjs.org/)
-- [Netlify](https://www.netlify.com/)
-- [MDX](https://mdxjs.com/)
 
-## Getting started
+### Fully Coded Components
 
-To create your blog using the template, open your terminal, `cd` into the directory you'd like to create the app in,
-and run the following command:
+Notus NextJS is built with over frontend 120 components, giving you the freedom of choosing and combining. All components can take variations in colors, that you can easily modify using Tailwind CSS classes (NOTE: each time you add a new class, a class that does not exist in `src/assets/styles/tailwind.css`, you will need to compile again tailwind).
 
+You will save a lot of time going from prototyping to full-functional code, because all elements are implemented.
+This Free Tailwind CSS Template is coming with prebuilt examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+
+Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.
+
+
+### CSS Components
+
+Notus NextJS comes with 120 Fully Coded CSS elements, such as [Alerts](https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-github-readme), [Buttons](https://www.creative-tim.com/learning-lab/tailwind/nextjs/buttons/notus?ref=nnjs-github-readme), [Inputs](https://www.creative-tim.com/learning-lab/tailwind/nextjs/inputs/notus?ref=nnjs-github-readme) and many more.
+
+Please [check all of them here](https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-github-readme).
+
+### NextJS Components
+
+We also feature the following 18 dynamic components:
+- [Alerts](https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-github-readme)
+- [Popper for Menus](https://www.creative-tim.com/learning-lab/tailwind/nextjs/dropdowns/notus?ref=nnjs-github-readme)
+- [Menus](https://www.creative-tim.com/learning-lab/tailwind/nextjs/menus/notus?ref=nnjs-github-readme)
+- [Modals](https://www.creative-tim.com/learning-lab/tailwind/nextjs/modals/notus?ref=nnjs-github-readme)
+- [Navbars](https://www.creative-tim.com/learning-lab/tailwind/nextjs/navbar/notus?ref=nnjs-github-readme)
+- [Popper for popover content](https://www.creative-tim.com/learning-lab/tailwind/nextjs/popovers/notus?ref=nnjs-github-readme)
+- [Tabs](https://www.creative-tim.com/learning-lab/tailwind/nextjs/tabs/notus?ref=nnjs-github-readme)
+- [Popper for tooltips content](https://www.creative-tim.com/learning-lab/tailwind/nextjs/tooltips/notus?ref=nnjs-github-readme)
+
+
+## Table of Contents
+
+* [Versions](#versions)
+* [Documentation](#documentation)
+* [Quick Start](#quick-start)
+* [Files and folders](#files-and-folders)
+* [Browser Support](#browser-support)
+* [Reporting Issues](#reporting-issues)
+* [Licensing](#licensing)
+* [Useful Links](#useful-links)
+* [Resources](#resources)
+
+## Versions
+
+[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/angular.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/notus-angular?ref=nnjs-github-readme)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/js.png?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/notus-js?ref=nnjs-github-readme)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/nextjs.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/notus-nextjs?ref=nnjs-github-readme)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/notus-react?ref=nnjs-github-readme)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/svelte.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/notus-svelte?ref=nnjs-github-readme)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/vue.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/vue-notus?ref=nnjs-github-readme)
+
+
+| Angular | JavaScript / HTML | NextJS | React | Svelte | VueJS |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| [![Notus Angular](https://github.com/creativetimofficial/public-assets/blob/master/notus-angular/notus-angular.jpg?raw=true)](https://www.creative-tim.com/product/notus-angular?ref=nnjs-github-readme)  | [![Notus JS](https://github.com/creativetimofficial/public-assets/blob/master/notus-js/notus-js.jpg?raw=true)](https://www.creative-tim.com/product/notus-js?ref=nnjs-github-readme)  | [![Notus NextJS](https://github.com/creativetimofficial/public-assets/blob/master/notus-nextjs/notus-nextjs.jpg?raw=true)](https://www.creative-tim.com/product/notus-nextjs?ref=nnjs-github-readme)  | [![Notus React](https://github.com/creativetimofficial/public-assets/blob/master/notus-react/notus-react.jpg?raw=true)](https://www.creative-tim.com/product/notus-react?ref=nnjs-github-readme)  | [![Notus Svelte](https://github.com/creativetimofficial/public-assets/blob/master/notus-svelte/notus-svelte.jpg?raw=true)](https://www.creative-tim.com/product/notus-svelte?ref=nnjs-github-readme)  | [![Vue Notus](https://github.com/creativetimofficial/public-assets/blob/master/vue-notus/vue-notus.jpg?raw=true)](https://www.creative-tim.com/product/vue-notus?ref=nnjs-github-readme)
+
+## Documentation
+The documentation for the Notus NextJS is hosted at our <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme" target="_blank">website</a>.
+
+## Quick start
+
+- <a href="https://www.creative-tim.com/product/notus-nextjs?ref=nnjs-github-readme" target="_blank">Download from Creative Tim</a>.
+- <a href="https://github.com/creativetimofficial/notus-nextjs" target="_blank">Check it on Github</a>.
+
+## Files and Folder
+
+This is the project structure that you will get upon the download:
 ```
-npx create-next-app your-blog --example "https://github.com/wutali/nextjs-netlify-blog-template"
+notus-nextjs
+.
+├── CHANGELOG.md
+├── ISSUE_TEMPLATE.md
+├── LICENSE.md
+├── README.md
+├── assets
+│   ├── img
+│   │   ├── brand
+│   │   │   └── favicon.ico
+│   │   ├── github.svg
+│   │   └── google.svg
+│   └── styles
+│       ├── index.css
+│       └── tailwind.css
+├── components
+│   ├── Cards
+│   │   ├── CardBarChart.js
+│   │   ├── CardLineChart.js
+│   │   ├── CardPageVisits.js
+│   │   ├── CardProfile.js
+│   │   ├── CardSettings.js
+│   │   ├── CardSocialTraffic.js
+│   │   ├── CardStats.js
+│   │   └── CardTable.js
+│   ├── Dropdowns
+│   │   ├── IndexDropdown.js
+│   │   ├── NotificationDropdown.js
+│   │   ├── PagesDropdown.js
+│   │   ├── TableDropdown.js
+│   │   └── UserDropdown.js
+│   ├── Footers
+│   │   ├── Footer.js
+│   │   ├── FooterAdmin.js
+│   │   └── FooterSmall.js
+│   ├── Headers
+│   │   └── HeaderStats.js
+│   ├── Maps
+│   │   └── MapExample.js
+│   ├── Navbars
+│   │   ├── AdminNavbar.js
+│   │   ├── AuthNavbar.js
+│   │   └── IndexNavbar.js
+│   ├── PageChange
+│   │   └── PageChange.js
+│   └── Sidebar
+│       └── Sidebar.js
+├── layouts
+│   ├── Admin.js
+│   └── Auth.js
+├── next.config.js
+├── package.json
+├── pages
+│   ├── 404.js
+│   ├── _app.js
+│   ├── _document.js
+│   ├── _error.js
+│   ├── admin
+│   │   ├── dashboard.js
+│   │   ├── maps.js
+│   │   ├── settings.js
+│   │   └── tables.js
+│   ├── auth
+│   │   ├── login.js
+│   │   └── register.js
+│   ├── index.js
+│   ├── landing.js
+│   └── profile.js
+└── tailwind.config.js
 ```
 
-After that, set up your project as following the Netlify blog:
+## Browser Support
 
-[A Step-by-Step Guide: Deploying on Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
+At present, we officially aim to support the last two versions of the following browsers:
 
-## Customization
+| Chrome | Firefox | Edge | Safari | Opera |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64"> |
 
-This template is just a template and a boilerplate in which users can customize anything after the project was cloned and started.
-The following instructions introduce common customization points like adding new metadata or applying a new design theme.
+## Reporting Issues
 
-### Styling pages by a customized theme
+We use GitHub Issues as the official bug tracker for the Notus NextJS. Here are some advices for our users that want to report an issue:
 
-All source codes related to the blog are under [components](https://github.com/wutali/nextjs-netlify-blog-template/tree/master/src/components), [pages](https://github.com/wutali/nextjs-netlify-blog-template/tree/master/src/pages), and
-[layouts](https://github.com/wutali/nextjs-netlify-blog-template/tree/master/src/layouts) directory.
-You can modify it freely if you want to apply your design theme.
-All components use [styled-jsx](https://github.com/vercel/styled-jsx) and [css-modules](https://github.com/css-modules/css-modules) to define their styles, but you can choose any styling libraries for designing your theme.
+1. Make sure that you are using the latest version of the Notus NextJS. Check the CHANGELOG from your dashboard on our <a href="https://www.creative-tim.com/?ref=nnjs-readme" target="_blank">website</a>.
+2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
+3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-The directory tree containing the blog source code are described below:
+## Licensing
 
-```
-meta: yaml files defining metadata like authors or tags
-public: images, favicons and other static assets
-src
-├── assets: other assets using inside of components
-├── components: pieces of components consisting of pages
-├── layouts: layout components for each post page
-├── lib: project libraries like data fetching or pagination
-└── pages: page components managing by Next.js
-```
+- Copyright 2020 <a href="https://www.creative-tim.com/?ref=nnjs-readme" target="_blank">Creative Tim</a>
 
-### Organizing content by categories
+- Licensed under <a href="https://github.com/creativetimofficial/notus-nextjs/blob/master/LICENSE.md" target="_blank">MIT</a>
 
-The category metadata that associates with content have the same relationship with the authors' one.
-Then reference these implementations for adding new metadata:
+## Useful Links
 
-- [public/admin/config.yml](https://github.com/wutali/nextjs-netlify-blog-template/blob/master/public/admin/config.yml#L51): author metadata definition for Netlify CMS
-- [src/lib/authors.tsx](https://github.com/wutali/nextjs-netlify-blog-template/blob/master/src/lib/authors.ts): fetches metadata and defines utility functions for components
-- [meta/authors.yml](https://github.com/wutali/nextjs-netlify-blog-template/blob/master/src/meta/authors.yml): author content managed by Netlify CMS
-- [layouts/index.tsx](https://github.com/wutali/nextjs-netlify-blog-template/blob/master/src/layouts/index.tsx): displays author content for each page
+- <a href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" target="_blank">Tutorials</a>
+- <a href="https://www.creative-tim.com/affiliates/new?ref=nnjs-readme" target="_blank">Affiliate Program</a> (earn money)
+- <a href="http://blog.creative-tim.com/?ref=nnjs-readme" target="_blank">Blog Creative Tim</a>
+- <a href="https://www.creative-tim.com/templates/free?ref=nnjs-readme" target="_blank">Free Products</a> from Creative Tim
+- <a href="https://www.creative-tim.com/templates/premium?ref=nnjs-readme" target="_blank">Premium Products</a> from Creative Tim
+- <a href="https://www.creative-tim.com/templates/react?ref=nnjs-readme" target="_blank">React Products</a> from Creative Tim
+- <a href="https://www.creative-tim.com/templates/angular?ref=nnjs-readme" target="_blank">Angular Products</a> from Creative Tim
+- <a href="https://www.creative-tim.com/templates/vuejs?ref=nnjs-readme" target="_blank">VueJS Products</a> from Creative Tim
+- <a href="https://www.creative-tim.com/templates?ref=nnjs-readme" target="_blank">More products</a> from Creative Tim
+- Check our Bundles <a href="https://www.creative-tim.com/bundles?ref=nnjs-readme" target="_blank">here</a>
+- Check our awesome builder <a href="https://www.creative-tim.com/builder/argon?ref=nnjs-readme" target="_blank">here</a>
+- Check Tailwind Starter Kit, the project behind this product <a href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation?ref=nnjs-readme" target="_blank">here</a>
 
-You understood they have four steps to add the category metadata on your project after you read the above source codes:
+### Social Media
 
-1. Define the category metadata on the above Netlify config file
-2. Create an empty file named with `categories.yml` under [meta](https://github.com/wutali/nextjs-netlify-blog-template/blob/master/src/meta/) directory
-3. Create a new module for fetching category metadata
-4. Display the category metadata on [layouts](https://github.com/wutali/nextjs-netlify-blog-template/blob/master/src/layouts/index.tsx#L71) or other components you want
+Twitter: <a href="https://twitter.com/CreativeTim" target="_blank">https://twitter.com/CreativeTim</a>
 
-It is all you have to do. After that, you can access Netlify CMS and create new categories at any time.
+Facebook: <a href="https://www.facebook.com/CreativeTim" target="_blank">https://www.facebook.com/CreativeTim</a>
 
-### Locale settings for Netlify CMS
+Dribbble: <a href="https://dribbble.com/creativetim" target="_blank">https://dribbble.com/creativetim</a>
 
-Modify [config.yml](https://github.com/wutali/nextjs-netlify-blog-template/blob/master/public/admin/config.yml) and
-[index.html](https://github.com/wutali/nextjs-netlify-blog-template/blob/master/public/admin/index.html) under [public/admin](https://github.com/wutali/nextjs-netlify-blog-template/blob/master/public/admin/) directory
-as following instructions:
+Instagram: <a href="https://www.instagram.com/creativetimofficial/" target="_blank">https://www.instagram.com/creativetimofficial/</a>
 
-[Netlify CMS - Configuration Options #Locale](https://www.netlifycms.org/docs/configuration-options/#locale)
 
-## References
-
-- [Netlify CMS Documentation](https://www.netlifycms.org/docs/intro/)
-- [Building a Markdown blog with Next 9.4 and Netlify](https://www.netlify.com/blog/2020/05/04/building-a-markdown-blog-with-next-9.4-and-netlify/)
-- [Hugo Theme - Codex](https://github.com/jakewies/hugo-theme-codex)
-- [Next.js Starter Template for TypeScript](https://github.com/vercel/next-learn-starter/tree/master/typescript-final)
-- [Building Blog with NextJS and Netlify CMS](https://dev.to/mefaba/building-blog-with-nextjs-and-netlify-cms-fom)
-- [Unicons](https://github.com/Iconscout/unicons)
-
-## License
-
-MIT
+## Resources
+- Demo: <a href="https://demos.creative-tim.com/notus-nextjs/?ref=nnjs-readme" target="_blank">https://demos.creative-tim.com/notus-nextjs/?ref=nnjs-readme</a>
+- Download Page: <a href="https://www.creative-tim.com/product/notus-nextjs?ref=nnjs-github-readme" target="_blank">https://www.creative-tim.com/product/notus-nextjs</a>
+- Documentation: <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme" target="_blank">https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme</a>
+- License Agreement: <a href="https://www.creative-tim.com/license?ref=nnjs-readme" target="_blank">https://www.creative-tim.com/license?ref=nnjs-readme</a>
+- Support: <a href="https://www.creative-tim.com/contact-us?ref=nnjs-readme" target="_blank">https://www.creative-tim.com/contact-us?ref=nnjs-readme</a>
+- Issues: <a href="https://github.com/creativetimofficial/notus-nextjs/issues" target="_blank">Github Issues Page</a>

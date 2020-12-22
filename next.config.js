@@ -1,26 +1,26 @@
-const withMdxEnhanced = require("next-mdx-enhanced");
-const rehypePrism = require("@mapbox/rehype-prism");
+const withPlugins = require("next-compose-plugins");
+const withImages = require("next-images");
+const withSass = require("@zeit/next-sass");
+const withCSS = require("@zeit/next-css");
+const withFonts = require("next-fonts");
+const webpack = require("webpack");
+const path = require("path");
 
-module.exports = withMdxEnhanced({
-  layoutPath: "src/layouts",
-  defaultLayout: true,
-  rehypePlugins: [rehypePrism],
-})({
-  pageExtensions: ["mdx", "tsx"],
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    config.module.rules.push(
-      ...[
-        {
-          test: /\.yml$/,
-          type: "json",
-          use: "yaml-loader",
+module.exports = withFonts(
+  withCSS(
+    withImages(
+      withSass({
+        webpack(config, options) {
+          config.module.rules.push({
+            test: /\.(eot|ttf|woff|woff2)$/,
+            use: {
+              loader: "url-loader",
+            },
+          });
+          config.resolve.modules.push(path.resolve("./"));
+          return config;
         },
-        {
-          test: /\.svg$/,
-          use: "@svgr/webpack",
-        },
-      ]
-    );
-    return config;
-  },
-});
+      })
+    )
+  )
+);
